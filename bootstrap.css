@@ -1,11 +1,11 @@
 body {
     padding: 0;
     margin: 0;
-    background: black;
+    background: rgb(255, 255, 255);
 }
 .navbar {
-    background: black;
-	border: 6px solid orange;
+    background: rgb(255, 255, 255);
+	border: 6px solid rgb(0, 0, 0);
 }
 .nav-link,
 .navbar-brand {
