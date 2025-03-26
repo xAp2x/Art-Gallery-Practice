@@ -5,11 +5,11 @@ body {
 }
 .navbar {
     background: rgb(255, 255, 255); /*navbar main bg color*/
-	border: 6px solid rgb(0, 0, 0);
+	border: 6px solid rgb(0, 40, 85);
 }
 .nav-link,
 .navbar-brand {
-    color: rgb(0, 0, 0);
+    color: rgb(0, 40, 85);
     cursor: pointer;
 }
 .nav-link {
@@ -17,7 +17,7 @@ body {
 }
 .nav-link:hover,
 .navbar-brand:hover {
-    color: rgb(255, 0, 0);
+    color: rgb(167, 43, 42);
 }
 .navbar-collapse {
     justify-content: flex-end;
@@ -39,7 +39,7 @@ body {
     width: 100%;
     left: 0;
     top: 0;
-    background: rgba(0, 0, 0, 0.6); /* Dark overlay effect */
+    background: rgba(0, 40, 85); /* Make opaque for Dark overlay effect */
 }
 .description {
 	left: 50%;
