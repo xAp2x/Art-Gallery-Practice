@@ -39,7 +39,7 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
     width: 100%;
     left: 0;
     top: 0;
-    background: rgb(0, 40, 85); /* Make opaque for Dark overlay effect */
+    background: rgb(255, 255, 255); /* Make opaque for Dark overlay effect */
 }
 .description {
 	left: 50%;
