@@ -1,15 +1,15 @@
 body {
     padding: 0;
     margin: 0;
-    background: rgb(255, 255, 255);
+    background: rgb(255, 255, 255); /*main background color*/ 
 }
 .navbar {
-    background: rgb(255, 255, 255);
+    background: rgb(255, 255, 255); /*navbar main bg color*/
 	border: 6px solid rgb(0, 0, 0);
 }
 .nav-link,
 .navbar-brand {
-    color: orange;
+    color: rgb(0, 0, 0);
     cursor: pointer;
 }
 .nav-link {
