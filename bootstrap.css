@@ -5,7 +5,7 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
 }
 .navbar {
     background: rgb(0, 40, 85); /*navbar main bg color*/
-	border: 6px solid rgb(167, 42, 42); /*navbar border*/
+	border: 2.5px solid rgb(167, 42, 42); /*navbar border*/
 }
 .nav-link,
 .navbar-brand {
@@ -49,23 +49,23 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
 	text-align: center;
 }
 .description h1 {
-	color: orange;
+	color: rgb(0, 40, 85);
 }
 .description p {
-	color: yellow;
+	color: rgb(167, 42, 42);
 	font-size: 1.3rem;
 	line-height: 1.5;
 }
 .description button {
-    border:6px solid orange;
-    background: black;
+    border:6px solid rgb(0, 40, 85); /*button border color*/
+    background: rgb(255, 255, 255); /*button bg color*/
     border-radius: 0;
-    color: orange;
+    color: rgb(0, 40, 85); /*button word color*/
 }
 .description button:hover {
-	border:6px solid yellow;
-    background: black;
-    color:yellow;
+	border:6px solid rgb(167, 42, 42); /*button border color (hovered over)*/
+    background: rgb(255, 255, 255); /*button bg color (hovered over)*/
+    color:rgb(167, 42, 42);/*button word color (hovered over)*/
 }
 .features {
 	margin: 4em auto;
