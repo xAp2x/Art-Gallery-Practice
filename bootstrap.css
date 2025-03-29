@@ -130,3 +130,8 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
     color: rgb(255, 255, 255);
     padding: 40px 0;
 }
+
+.carousel-item img { /*Should make it so that the images are all set to a fixed height*/
+    height: 500px;
+    object-fit: cover;
+}
