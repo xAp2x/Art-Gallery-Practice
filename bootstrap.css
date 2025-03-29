@@ -31,7 +31,6 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: <img src="images/hlgarch1.png">;
     background-size: cover;
     background-position: center;
     position: relative;
