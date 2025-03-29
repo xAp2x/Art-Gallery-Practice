@@ -9,7 +9,7 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
     width: 100%;
     background: rgb(0, 40, 85); /*navbar main bg color*/
 	border: 2.5px solid rgb(167, 42, 42); /*navbar border*/
-    z-index: 1000; /*The higher the #, the closer it is to the front aparently*/
+    z-index: 1000; /*The higher the #, the closer it is to the front*/
 }
 .nav-link,
 .navbar-brand {
@@ -31,7 +31,7 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('https://64.media.tumblr.com/2f8718807b581ae6bef69b8bc6b9e2ea/tumblr_py484hOpBB1umsmpio1_540.gifv');
+    background-image: <img src="images/hlgarch1.jpg">;
     background-size: cover;
     background-position: center;
     position: relative;
