@@ -9,6 +9,7 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
     width: 100%;
     background: rgb(0, 40, 85); /*navbar main bg color*/
 	border: 2.5px solid rgb(167, 42, 42); /*navbar border*/
+    z-index: 1000; /*The higher the #, the closer it is to the front aparently*/
 }
 .nav-link,
 .navbar-brand {
