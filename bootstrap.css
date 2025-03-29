@@ -4,6 +4,9 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
     background: rgb(255, 255, 255); /*main background color*/ 
 }
 .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
     background: rgb(0, 40, 85); /*navbar main bg color*/
 	border: 2.5px solid rgb(167, 42, 42); /*navbar border*/
 }
