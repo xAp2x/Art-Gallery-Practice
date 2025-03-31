@@ -4,45 +4,50 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
     background: rgb(255, 255, 255); /*main background color*/ 
 }
 .navbar {
-    position: fixed; /*Should make the navbar stay at the top of the screen even when you scroll*/
-    height: 75px; /* set a fixed height for the navbar*/
+    position: fixed; /* Keep navbar at the top */
+    height: 75px; /* Set fixed navbar height */
     top: 0;
     width: 100%;
-    background: rgb(0, 40, 85); /*navbar main bg color*/
-	/*border: 2.5px solid rgb(167, 42, 42); (navbar border)*/
-    z-index: 1000; /*The higher the #, the closer it is to the front*/
+    background: rgb(0, 40, 85); /* Navbar main background color */
+    z-index: 1000; /* Ensures navbar stays above other content */
+}
+.navbar-nav {
+    display: flex;
+    width: 100%; /* Makes sure the navbar takes full width */
 }
 .navbar-nav .nav-item {
-    height: 100%;
+    flex: 1; /* Makes each nav item take an equal amount of space */
+    text-align: center; /* Ensures text is centered */
 }
-.navbar-nav .nav-link {
+.navbar-nav .nav-link { /*applies styles only to elements with the .nav-link class inside an element with .navbar-nav*/
     height: 100%;
-    width: 100%; /* Ensure it fills the entire item */
+    width: 100%; /* Ensures full width */
     display: block; /* Makes the link take full space */
     padding: 0 1rem; /* Keeps text aligned */
     transition: background-color 0.3s ease;
     text-align: center; /* Centers text */
     line-height: 75px; /* Matches navbar height for vertical centering */
+    color: rgb(255, 255, 255); /* Sets text color */
 }
+
 .navbar-nav .nav-link:hover {
-    background-color: rgba(167, 42, 42, 0.8); /* hover background for navbar*/
-    color: rgb(255, 255, 255); /* basically making sure the text is still white*/
+    background-color: rgba(167, 42, 42, 0.8); /* Hover background */
+    color: rgb(255, 255, 255); /* Ensures text stays white */
 }
-.nav-link,
+
 .navbar-brand {
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
-.nav-link {
-    margin-right: 1em !important;
-}
+
 .navbar-brand:hover {
-    background-color: rgb(167, 42, 42);
-    color: rgb(255, 255, 255);
+    color: rgb(167, 42, 42);
 }
+
 .navbar-collapse {
     justify-content: flex-end;
 }
+
 .header {
     height: 100vh; /* or your desired height */
     display: flex;
