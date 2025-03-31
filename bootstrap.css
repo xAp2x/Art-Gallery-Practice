@@ -31,6 +31,10 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
     line-height: 75px; /* Matches navbar height for vertical centering */
     color: rgb(255, 255, 255); /* Sets text color */
 }
+.navbar-nav .nav-link.active {
+    background-color: rgb(167, 42, 42); /* Change background for active link */
+    color: rgb(255, 255, 255); /* Keep text white */
+}
 .navbar-nav .nav-link:hover {
     background-color: rgba(167, 42, 42, 0.8); /* Hover background */
     color: rgb(255, 255, 255); /* Ensures text stays white */
