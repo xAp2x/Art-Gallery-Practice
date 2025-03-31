@@ -13,10 +13,12 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
 }
 .navbar-nav {
     display: flex;
+    justify-content: right; /* Centers the nav links */
     width: 100%; /* Makes sure the navbar takes full width */
+    background-color: rgb(0, 40, 85); /* Adjust color as needed */
 }
 .navbar-nav .nav-item {
-    flex: 1; /* Makes each nav item take an equal amount of space */
+    width: 125px; /* Set a fixed width for each nav item */
     text-align: center; /* Ensures text is centered */
 }
 .navbar-nav .nav-link { /*applies styles only to elements with the .nav-link class inside an element with .navbar-nav*/
