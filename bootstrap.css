@@ -22,6 +22,7 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
 .nav-link:hover,
 .navbar-brand:hover {
     background-color: rgb(167, 42, 42);
+    color: rgb(255, 255, 255);
 }
 .navbar-collapse {
     justify-content: flex-end;
