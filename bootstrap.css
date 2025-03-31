@@ -5,7 +5,7 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
 }
 .navbar {
     position: fixed; /*Should make the navbar stay at the top of the screen even when you scroll*/
-    height: 60px; /* set a fixed height for the navbar*/
+    height: 75px; /* set a fixed height for the navbar*/
     top: 0;
     width: 100%;
     background: rgb(0, 40, 85); /*navbar main bg color*/
