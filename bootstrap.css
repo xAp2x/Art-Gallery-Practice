@@ -31,25 +31,20 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
     line-height: 75px; /* Matches navbar height for vertical centering */
     color: rgb(255, 255, 255); /* Sets text color */
 }
-
 .navbar-nav .nav-link:hover {
     background-color: rgba(167, 42, 42, 0.8); /* Hover background */
     color: rgb(255, 255, 255); /* Ensures text stays white */
 }
-
 .navbar-brand {
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
-
 .navbar-brand:hover {
     color: rgb(167, 42, 42);
 }
-
 .navbar-collapse {
     justify-content: flex-end;
 }
-
 .header {
     height: 100vh; /* or your desired height */
     display: flex;
@@ -107,7 +102,6 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
 	margin-bottom: 20px;
 	text-transform: uppercase;
 }
-
 .features .form-control,
 .features input {
 	border-radius: 0;
@@ -155,7 +149,6 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
     color: rgb(255, 255, 255);
     padding: 40px 0;
 }
-
 .carousel-item img {
     height: 500px;
     width: auto !important;  /* Overrides the Bootstrap w-100 */
@@ -210,11 +203,9 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
     .page-footer {
         padding: 30px 0 15px;
     }
-
     .page-footer .container {
         text-align: center;
     }
-
     .footer-copyright {
         font-size: 0.9rem;
         padding: 20px 0;
