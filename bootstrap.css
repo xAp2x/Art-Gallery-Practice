@@ -1,5 +1,6 @@
 body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85)*/
     padding: 0;
+    padding-top: 75px; /* Adjust this value if your navbar height changes */
     margin: 0;
     background: rgb(255, 255, 255); /*main background color*/ 
 }
@@ -50,7 +51,8 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
     justify-content: flex-end;
 }
 .header {
-    height: 100vh; /* or your desired height */
+    min-height: 100vh; /* optional if you want a minimum */
+    padding-top: 75px; /* Add padding to account for fixed navbar */
     display: flex;
     flex-direction: column; /* stacks children vertically */
     align-items: center;
