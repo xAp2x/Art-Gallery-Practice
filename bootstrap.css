@@ -163,4 +163,48 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
     margin: 0 auto;          /* Centers the image horizontally */
 }
 
-
+@media (max-width: 768px) {
+    .navbar {
+        height: auto; /* Allow it to expand properly */
+        padding: 10px 0;
+    }
+    .navbar-nav {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center links */
+        width: 100%;
+    }
+    .navbar-nav .nav-item {
+        width: 100%; /* Make each nav item full width */
+        text-align: center; /* Center the text */
+        padding: 10px 0; /* Add spacing for touch accessibility */
+    }
+    .navbar-nav .nav-link {
+        line-height: normal; /* Prevents spacing issues */
+        padding: 12px 0; /* Adds space for better tapping */
+    }
+    .navbar-toggler {
+        border: 2px solid rgb(255, 255, 255); /* Makes toggle button visible */
+    }
+    .navbar-toggler-icon {
+        background-color: rgb(255, 255, 255); /* Ensures visibility */
+    }
+    .description {
+        width: 90%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .description h1 {
+        font-size: 1.8rem; /* Reduce header text size */
+    }
+    .description p {
+        font-size: 1.1rem;
+    }
+    .description button {
+        font-size: 1rem; /* Adjust button size */
+        padding: 8px 16px;
+    }
+    .carousel-item img {
+        height: 250px; /* Reduce height for smaller screens */
+        object-fit: cover;
+    }
+}
