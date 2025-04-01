@@ -277,7 +277,7 @@ div.gallery img {
     width: 100%;
     height: auto;
 }
-div.desc {
+div.desc { /*gallery images spacing things apparently*/
     padding: 5px;
     text-align: center;
     min-height: 75px; /* Adjust this value based on the longest text */
