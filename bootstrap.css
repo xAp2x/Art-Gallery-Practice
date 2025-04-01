@@ -7,6 +7,7 @@
     --button-border: rgb(0, 40, 85);
     --button-text: rgb(0, 40, 85);
     --button-bg: rgb(200, 200, 200);
+    --card-bg: rgb(255, 255, 255);
   }
   
   @media (prefers-color-scheme: dark) {
@@ -19,6 +20,7 @@
       --button-border: rgb(255, 255, 255);
       --button-text: rgb(255, 255, 255);
       --button-bg: rgb(50, 50, 50);
+      --card-bg: rgb(0, 40, 85);
     }
   }  
 
@@ -30,6 +32,7 @@
     --button-border: rgb(0, 40, 85);
     --button-text: rgb(0, 40, 85);
     --button-bg: rgb(200, 200, 200);
+    --card-bg: rgb(255, 255, 255);
   }
   
   body.dark-mode {
@@ -40,6 +43,7 @@
     --button-border: rgb(255, 255, 255);
     --button-text: rgb(255, 255, 255);
     --button-bg: rgb(50, 50, 50);
+    --card-bg: rgb(0, 40, 85);
   }
 body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85)*/
     padding: 0;
@@ -175,7 +179,7 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
 	column-count: 4;
 }
 .team .card {
-	background:none;
+	background-color: var(--button-bg);
 	border: none;
 }
 .team .card-title {
@@ -187,11 +191,14 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
     height: 100%; /* Makes all cards the same height */
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Ensures content is spaced properly */
+    justify-content: space-between;
+    background-color: var(--card-bg); /* Use variable for background */
+    color: var(--text-color);         /* Use variable for text */
+    border: 1px solid var(--button-border); /* Optional: if you want a border */
 }
 .card-img-top {
-    width: 150px; /* Set a fixed size for images */
-    height: 150px;
+    width: 125px; /* Set a fixed size for images */
+    height: 125px;
     object-fit: cover; /* Ensures images don’t get distorted */
     margin: 0 auto; /* Centers the image */
 }
@@ -201,6 +208,10 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
     flex-direction: column;
     justify-content: center; /* Centers text vertically */
     align-items: center; /* Centers text horizontally */
+}
+.card-body h4,
+.card-body p {
+    color: var(--text-color); /* Ensure card text uses the variable */
 }
 .profile-link {
     position: relative;
