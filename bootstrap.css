@@ -167,8 +167,10 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
     align-items: center; /* Centers text horizontally */
 }
 .profile-link {
-    text-decoration: none; /* Remove default link styling */
-    color: inherit; /* Inherit the text color from parent (prevents blue links) */
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    color: inherit;
 }
 .profile-link .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -178,11 +180,15 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
 .profile-link:hover {
     text-decoration: none; /* Remove default link styling */
     color: inherit; /* Ensures hover doesn't change text color */
-    z-index: 10; /* Bring hovered card to the top */
+    z-index: 1000; /* Bring hovered card to the top */
 }
 .profile-link .card:hover {
     transform: scale(1.05); /* Slightly enlarge card on hover */
     box-shadow: 0px 4px 15px rgba(0, 40, 85, 0.3); /* Add shadow */
+}
+.col-lg-3, .col-md-4, .col-sm-6, .col-12 {/* Ensure the grid columns allow overlapping */
+    position: relative;
+    overflow: visible;
 }
 .page-footer {
     background-color: rgb(0, 40, 85);
