@@ -99,8 +99,6 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
     justify-content: flex-end;
 }
 .header {
-    min-height: 100vh; /* optional if you want a minimum */
-    margin-top: 2rem; /* Add margin to account for fixed navbar */
     display: flex;
     flex-direction: column; /* stacks children vertically */
     align-items: center;
@@ -109,7 +107,8 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
     background-position: center;
     position: relative;
     text-align: center;
-    margin-bottom: 2rem; /* Gives some breathing room before the footer */ /*2rem is a CSS unit of measurement that stands for "2 times the root element's font size*/
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .description {
 	left: 50%;
