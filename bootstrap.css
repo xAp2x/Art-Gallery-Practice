@@ -199,6 +199,21 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
     color: rgb(255, 255, 255);
     padding: 40px 0;
 }
+.page-footer .row {
+    display: flex;
+    justify-content: space-around; /* Ensures equal spacing */
+    flex-wrap: wrap; /* Makes it responsive */
+}
+.page-footer .col-lg-4 {
+    text-align: center;
+}
+.page-footer a {
+    color: white;
+    text-decoration: none;
+}
+.page-footer a:hover {
+    text-decoration: underline;
+}
 .carousel-item img {
     height: 500px;
     width: auto !important;  /* Overrides the Bootstrap w-100 */
