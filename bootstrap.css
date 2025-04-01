@@ -172,10 +172,13 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
 }
 .profile-link .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative; /* Ensure z-index works */
+    z-index: 1; /* Default layer */
 }
 .profile-link:hover {
     text-decoration: none; /* Remove default link styling */
     color: inherit; /* Ensures hover doesn't change text color */
+    z-index: 10; /* Bring hovered card to the top */
 }
 .profile-link .card:hover {
     transform: scale(1.05); /* Slightly enlarge card on hover */
