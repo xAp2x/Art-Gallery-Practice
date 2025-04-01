@@ -127,13 +127,13 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
 	line-height: 1.5;
 }
 .description button {
-    border:6px solid var(--button-border); /*button border color*/
+    border: 6px solid var(--button-border); /*button border color*/
     background: var(--button-bg); /*button bg color*/
     border-radius: 0;
     color: var(--button-text); /*button word color*/
 }
 .description button:hover {
-	border:6px solid var(--button-border); /*button border color (hovered over)*/
+	border: 6px solid var(--button-border); /*button border color (hovered over)*/
     background: var(--button-bg); /*button bg color (hovered over)*/
     color: var(--button-text);/*button word color (hovered over)*/
 }
@@ -155,7 +155,7 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
 }
 .features, .btn {
     background: var(--button-bg);
-    border: 6px var(--button-border);
+    border: 6px solid var(--button-border);
     color: var(--button-text);
 	border-radius: 0;
     margin-top: 20px;
@@ -197,10 +197,10 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
     border: 1px solid var(--button-border); /* Optional: if you want a border */
 }
 .card-img-top {
-    width: 125px; /* Set a fixed size for images */
-    height: 125px;
+    width: 150px; /* Set a fixed size for images */
+    height: 150px;
     object-fit: cover; /* Ensures images don’t get distorted */
-    margin: 0 auto; /* Centers the image */
+    margin: 15px auto 0 auto; /* Centers the image */
 }
 .card-body {
     flex-grow: 1; /* Ensures all card bodies expand to fill space */
