@@ -168,15 +168,18 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
 }
 .profile-link {
     text-decoration: none; /* Remove default link styling */
+    color: inherit; /* Inherit the text color from parent (prevents blue links) */
 }
-
 .profile-link .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
+.profile-link:hover {
+    text-decoration: none; /* Remove default link styling */
+    color: inherit; /* Ensures hover doesn't change text color */
+}
 .profile-link .card:hover {
     transform: scale(1.05); /* Slightly enlarge card on hover */
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Add shadow */
+    box-shadow: 0px 4px 15px rgba(0, 40, 85, 0.3); /* Add shadow */
 }
 .page-footer {
     background-color: rgb(0, 40, 85);
