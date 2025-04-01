@@ -133,9 +133,9 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
     color: rgb(200, 50, 50); /*button word color*/
 }
 .description button:hover {
-	border: 6px solid rgb(0, 40, 85); /*button border color (hovered over)*/
-    background: rgba(255, 255, 255, 0); /*button bg color (hovered over)*/
-    color: rgb(0, 40, 85);/*button word color (hovered over)*/
+	background: rgba(255, 255, 255, 0);
+    border: 6px solid rgb(100, 50, 50);
+	color: rgb(100, 50, 50)
 }
 .features {
 	margin: 4em auto;
@@ -231,7 +231,7 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
 }
 .profile-link .card:hover {
     transform: scale(1.05); /* Slightly enlarge card on hover */
-    box-shadow: 0px 4px 15px rgba(0, 40, 85, 0.3); /* Add shadow */
+    box-shadow: 0px 4px 15px rgba(200, 50, 50, 0.3); /* Add shadow */
 }
 .col-lg-3, .col-md-4, .col-sm-6, .col-12 {/* Ensure the grid columns allow overlapping */
     position: relative;
@@ -269,7 +269,7 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
     margin: 0 auto;          /* Centers the image horizontally */
 }
 div.gallery {
-    border: 1px solid rgb(0, 50, 107); /*gallery images border*/
+    border: 1px solid rgb(0, 75, 161); /*gallery images border*/
   }
   div.gallery:hover {
     border: 1px solid rgb(0, 40, 85); /*gallery images border hovered*/
