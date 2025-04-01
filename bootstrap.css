@@ -31,7 +31,7 @@
     --accent-color: rgb(167, 43, 42);
     --button-border: rgb(0, 40, 85);
     --button-text: rgb(0, 40, 85);
-    --button-bg: rgb(200, 200, 200);
+    --button-bg: rgb(255, 255, 255);
     --card-bg: rgb(255, 255, 255);
   }
   
@@ -126,16 +126,16 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
 	font-size: 1.3rem;
 	line-height: 1.5;
 }
-.description button {
-    border: 6px solid var(--button-border); /*button border color*/
-    background: var(--button-bg); /*button bg color*/
+.description button { /*dont think this is being used*/
+    border: 6px solid rgb(200, 50, 50); /*button border color*/
+    background: rgba(255, 255, 255, 0); /*button bg color*/
     border-radius: 0;
-    color: var(--button-text); /*button word color*/
+    color: rgb(200, 50, 50); /*button word color*/
 }
 .description button:hover {
-	border: 6px solid var(--button-border); /*button border color (hovered over)*/
-    background: var(--button-bg); /*button bg color (hovered over)*/
-    color: var(--button-text);/*button word color (hovered over)*/
+	border: 6px solid rgb(0, 40, 85); /*button border color (hovered over)*/
+    background: rgba(255, 255, 255, 0); /*button bg color (hovered over)*/
+    color: rgb(0, 40, 85);/*button word color (hovered over)*/
 }
 .features {
 	margin: 4em auto;
@@ -154,16 +154,16 @@ body { /*Main hannibal colors are Scarlet: rgb(167, 43, 42), Navy: rgb(0, 40, 85
 	border-radius: 0;
 }
 .features, .btn {
-    background: var(--button-bg);
-    border: 6px solid var(--button-border);
-    color: var(--button-text);
+    background: rgba(255, 255, 255, 0);
+    border: 6px solid rgb(200, 50, 50);
+    color: rgb(200, 50, 50);
 	border-radius: 0;
     margin-top: 20px;
 }
 .btn:hover {
-    background: var(--button-bg);
-    border: 6px var(--button-border);
-	color: var(--button-text);
+    background: rgba(255, 255, 255, 0);
+    border: 6px solid rgb(100, 50, 50);
+	color: rgb(100, 50, 50);
 }
 .background {
 	background: var(--bg-color);
