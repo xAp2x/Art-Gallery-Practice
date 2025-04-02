@@ -294,21 +294,12 @@ div.desc { /*gallery images spacing things apparently*/
     align-items: center;
     justify-content: center;
 }
-
-  * {
+* {
     box-sizing: border-box;
-  }
-  .responsive {
+}
+.responsive {
     padding: 1em;
-  } 
-  @media only screen and (max-width: 700px) {
-    .responsive {
-    }
-  } 
-  @media only screen and (max-width: 500px) {
-    .responsive {
-    }
-  }
+} 
 @media (max-width: 768px) {
     .navbar {
         height: auto; /* Allow it to expand properly */
